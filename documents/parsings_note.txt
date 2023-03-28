@@ -1,0 +1,45 @@
+1. Tokenization
+
+
+Atoms of command line:
+
+name_commands
+quotes : Single-Quotes, Double-Quotes
+flags (options)
+
+args_nom_ficher
+args_nom_dossie
+args_text
+
+
+special_symbols
+//end_of_file
+//reserved_words
+//operations
+
+
+-------------
+library -> end_of_file
+    or 
+library -> function -> EOF
+    or
+library-> function -> identifier -> statement -> EOF
+
+!!! \\n - The backslash and <newline>s shall be removed before splitting 
+the input into tokens. Since the escaped <newline> is removed entirely 
+from the input and is not replaced by any white space, it cannot serve as a token se
+
+
+1. Est-ce que l'on utilise flag -c?
+2. tokens (1) - quotes ''; if "" - regarder s'il y a $ ` ou \
+3. les type des tokens. - cathegory
+4. la valeur du token
+
+1. definir les 'espases' :  (tabulations, espaces… cela dépend du texte analysé) like atoi
+2. recuperer le mot
+3. definir le type
+//tableau des mot reserve :L'astuce ici est par exemple d'avoir un tableau contenant tous les 
+//mots réservés reconnus afin d'en identifier un éventuel.
+
+
+dans le ft_splite checker les ' et faire " de $
